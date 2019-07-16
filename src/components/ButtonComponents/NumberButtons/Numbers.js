@@ -10,7 +10,7 @@ import {numbers} from "../../../data"; //{numbers in curly brackets bc variable}
 const Numbers = () => {
   console.log(numbers)
   // STEP 2 - add the imported data to state
-  const [data, dataValue] = useState(numbers)
+  const [data, dataValue] = useState(numbers)//declare variables above return statement
   const myData = data.map(x => x)
   console.log("numbers data", myData)
   // console.log(data)
@@ -22,7 +22,7 @@ const Numbers = () => {
       }
       {data.map(y => (
       <NumberButton
-      key= {y}
+      key= {y} // use key bc react will cause errors, it needs to grab a key
       myData={y}
       />))}
     </div>
