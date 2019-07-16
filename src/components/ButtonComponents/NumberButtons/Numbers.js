@@ -15,14 +15,14 @@ const Numbers = () => {
   console.log("numbers data", myData)
   // console.log(data)
   return (
-    <div>
+    <div className = "numberButtons">
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
        component matching the name on the provided file. Pass
        it any props needed by the child component*/
       }
       {data.map(y => (
       <NumberButton
-      key= {y} // use key bc react will cause errors, it needs to grab a key
+      key= {y} // use key bc react will cause errors it needs to grab a key
       myData={y}
       />))}
     </div>
