@@ -23,15 +23,22 @@ function App() {
 
   return (
     <div className="container">
-      <Logo />
-      <Display />
       <div className="App">
-        <Numbers/>
-        {/* <NumberButton/> */}
-        <Specials/>
-        {/* <SpecialButton/> */}
-        <Operators/>
-        {/* <OperatorButton/> */}
+        <Logo />
+        <Display />
+        <div className="flexHorizontal">
+          <div className="leftContent">
+            <div className="specials">
+              <Specials />
+            </div>
+            <div className="numbers">
+              <Numbers />
+            </div>
+          </div>
+          <div className="operators">
+            <Operators />
+          </div>
+        </div>
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
       </div>
     </div>
