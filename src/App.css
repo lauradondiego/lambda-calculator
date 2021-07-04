@@ -1,0 +1,95 @@
+/* * {
+    margin: 0;
+    padding: 0
+
+} */
+
+.container {
+  border-radius: 0.5rem;
+  /* margin-top: 10rem;
+    margin-right: 15rem; */
+  /* margin: 10rem 20rem 10rem 12rem; */
+  padding: 5rem;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  background-color: #bb1233;
+  border-radius: 12px;
+  padding: 3rem;
+  width: 18rem;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.flexHorizontal {
+  display: flex;
+}
+
+.logo {
+  margin-bottom: 1rem;
+}
+
+.displayClass {
+  background-color: #2d2829;
+  width: 12rem;
+  padding: 1.5rem;
+  text-align: end;
+  border-radius: 20px;
+  color: white;
+}
+
+button {
+  margin-top: 1rem;
+  border-color: #2d2829;
+}
+
+.numberButton {
+  background-color: #113c78;
+  color: white;
+  border-radius: 50%;
+  padding: 1.5rem;
+  /* margin-left: 1rem; */
+}
+
+.numberButton:nth-child(1n + 3) {
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+}
+
+.numbers {
+  display: flex;
+  width: 12rem;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.specialButton {
+  background-color: #2061b0;
+  color: white;
+  border-radius: 50%;
+  padding: 1.5rem;
+}
+
+.specialButton:nth-child(2) {
+  margin-left: 2.5px;
+  margin-right: 2.5px;
+}
+
+.specials {
+  display: flex;
+  width: 12rem;
+  flex-wrap: wrap;
+}
+
+.operatorButton {
+  background-color: #3db5e5;
+  color: white;
+  border-radius: 50%;
+  padding: 1.5rem;
+}
+
+.operators {
+  width: 2rem;
+}
